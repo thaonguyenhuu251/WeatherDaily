@@ -1,3 +1,76 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="app_name">WeatherDaily</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="app_weather">Một ứng dụng thời tiết</string>
+    <string name="today_weather">Today weather</string>
+    <string name="hint_name">Nhập tên của bạn và bắt đầu sử dụng</string>
+    <string name="set_name_error">Nhập vào tên</string>
+
+
+    <!--detail weather-->
+    <string name="fell_like">Cảm giác như</string>
+    <string name="humidity">Độ ẩm</string>
+    <string name="uv_index">Chỉ số UV</string>
+    <string name="vision">Tầm nhìn</string>
+    <string name="dewpoint">Điểm sương</string>
+    <string name="pressure">áp suất</string>
+    <string name="detail">Chi tiết</string>
+    <string name="seven_day_next">7 ngày tiếp</string>
+    <string name="rain_percent">Khả năng mưa</string>
+    <string name="air_index">Chỉ số không khí</string>
+    <string name="sun">Mặt trời</string>
+    <string name="moon">Mặt trăng</string>
+    <string name="today">Hôm nay</string>
+
+    <!--    clound status-->
+    <string name="cloud_little">Ít Mây</string>
+    <string name="cloud_much">Nhiều Mây</string>
+
+
+    <!--    status weather description-->
+    <string name="thunderstorm_rain">Mưa có sấm sét</string>
+    <string name="thunderstorm_drizzle">Mưa phùn có sấm set</string>
+    <string name="drizzle">Mưa phùn</string>
+    <string name="rain">Mưa</string>
+    <string name="snow">Tuyết</string>
+    <string name="sleet">Mưa đá</string>
+    <string name="snow_shower">Mưa tuyết</string>
+    <string name="flurries">Bão</string>
+    <string name="mist">Sương mù</string>
+    <string name="smoke">Khói</string>
+    <string name="haze">Sương mù nhẹ</string>
+    <string name="sand_dust">Cát bụi</string>
+
+    <string name="frog">Frog</string>
+    <string name="clear_sky">Trời trong</string>
+    <string name="broken_clounds">Có mây nhỏ</string>
+    <string name="overcast_clouds">Có mây u ám</string>
+    <string name="unknown_precipitation">Unknown Precipitation</string>
+    <string name="north">bắc</string>
+    <string name="north_east">đông bắc</string>
+    <string name="east">đông</string>
+    <string name="south_east">đông nam</string>
+    <string name="south">nam</string>
+    <string name="south_west">tây nam</string>
+    <string name="west">tây</string>
+    <string name="north_west">tây bắc</string>
+    <string name="unknow_weather">unknown weather</string>
+    <string name="hight">Cao</string>
+    <string name="celsius">°C</string>
+    <string name="low">thấp</string>
+    <string name="wind">Gió</string>
+    <string name="speed">tốc độ</string>
+    <string name="km_per_hour">km/h</string>
+    <string name="ability_to_rain">Khả năng mưa</string>
+    <string name="north_north_east">bắc - đông bắc</string>
+    <string name="north_north_west">bắc - tây bắc</string>
+    <string name="east_north_east">đông - đông bắc</string>
+    <string name="east_south_east">đông - đông nam</string>
+    <string name="south_south_east">nam - đông nam</string>
+    <string name="south_south_west">nam - tây nam</string>
+    <string name="west_south_west">tây - tây bắc</string>
+    <string name="west_north_west">west - tây nam</string>
 </resources>

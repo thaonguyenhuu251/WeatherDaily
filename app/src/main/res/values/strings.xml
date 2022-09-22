@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">WeatherDaily</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="app_weather">Weather Application</string>
+    <string name="today_weather">Today weather</string>
+    <string name="hint_name">Please enter your name and start use App</string>
+    <string name="set_name_error">Enter Username</string>
+
+
+    <!--detail weather-->
+    <string name="fell_like">fell like</string>
+    <string name="humidity">Humidity</string>
+    <string name="uv_index">UV</string>
+    <string name="vision">Vision</string>
+    <string name="dewpoint">Dewpoint</string>
+    <string name="pressure">Pressure</string>
+    <string name="detail">Detail</string>
+    <string name="seven_day_next">Seven day next</string>
+    <string name="rain_percent">Rain percent</string>
+    <string name="air_index">Air index</string>
+    <string name="sun">Sun</string>
+    <string name="moon">Moon</string>
+    <string name="today">Today</string>
+
+    <!--    clound status-->
+    <string name="cloud_little">Cloud little</string>
+    <string name="cloud_much">Cloud much</string>
+
+
+    <!--    status weather description-->
+    <string name="thunderstorm_rain">Thunderstorm rain</string>
+    <string name="thunderstorm_drizzle">Thunderstorm drizzle</string>
+    <string name="drizzle">Drizzle</string>
+    <string name="rain">Rain</string>
+    <string name="snow">Snow</string>
+    <string name="sleet">Sleet</string>
+    <string name="snow_shower">Snow shower</string>
+    <string name="flurries">Flurries</string>
+    <string name="mist">Mist</string>
+    <string name="smoke">Smoke</string>
+    <string name="haze">Haze</string>
+    <string name="sand_dust">Sand and dust</string>
+
+
+    <string name="frog">Frog</string>
+    <string name="clear_sky">Clear sky sun</string>
+    <string name="broken_clounds">Broken clounds</string>
+    <string name="overcast_clouds">Overcast clouds</string>
+    <string name="unknown_precipitation">Unknown Precipitation</string>
+    <string name="north">north</string>
+    <string name="north_east">north east</string>
+    <string name="east">east</string>
+    <string name="south_east">south east</string>
+    <string name="south">south</string>
+    <string name="south_west">south west</string>
+    <string name="west">west</string>
+    <string name="north_west">north west</string>
+    <string name="unknow_weather">unknown weather</string>
+    <string name="hight">Hight</string>
+    <string name="celsius">°C</string>
+    <string name="low">low</string>
+    <string name="wind">Wind</string>
+    <string name="speed">speed</string>
+    <string name="km_per_hour">km/h</string>
+    <string name="ability_to_rain">Ability to rain</string>
+    <string name="north_north_east">north - north east</string>
+    <string name="east_north_east">east - north east</string>
+    <string name="east_south_east">east - south east</string>
+    <string name="south_south_east">south - south east</string>
+    <string name="south_south_west">south - south west</string>
+    <string name="west_south_west">west - south west</string>
+    <string name="west_north_west">west - north west</string>
+    <string name="north_north_west">north - north west</string>
+    <string name="delete">Delete</string>
+</resources>
