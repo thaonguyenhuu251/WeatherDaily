@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:padding="5dp">
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="7"
+        android:paddingBottom="10dp">
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5">
+
+            <ImageView
+                android:id="@+id/ivWeatherWeekday"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/custome_circle"
+                android:padding="15dp"
+                android:src="@drawable/ic_partly_cloudy" />
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5.5"
+            android:orientation="vertical"
+            android:paddingBottom="15dp">
+
+            <TextView
+                android:id="@+id/txtWeekday"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="THỨ TƯ, 21 THÁNG 9"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtCelsiusWeekday"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="31℃ / 24℃"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="7">
+
+        <TextView
+            android:id="@+id/txtPercentWeekday"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5"
+            android:gravity="center_horizontal"
+            android:text="84%"
+            android:textColor="@color/teal_200"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5.5"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtInforDay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Ngày - Có Dông. Gió đông bắc, tốc độ 11km/h.Khả năng mưa 79%"
+                android:textColor="@color/colorText"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txtInforNight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Đêm - Có Dông. Gió đông bắc, tốc độ 10km/h.Khả năng mưa 84%"
+                android:textColor="@color/colorText"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+    </TableRow>
+</TableLayout>
