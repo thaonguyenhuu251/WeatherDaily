@@ -3,6 +3,16 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/WeatherDaily/app/src/main/res/drawable-v24/cloudy-48px.xml" value="0.172" />
+        <entry key="..\:/WeatherDaily/app/src/main/res/drawable-v24/ic_cloudy.xml" value="0.172" />
+        <entry key="..\:/WeatherDaily/app/src/main/res/drawable/background_circle_icon_weather_detail.xml" value="0.1145" />
+        <entry key="..\:/WeatherDaily/app/src/main/res/drawable/custome_circle.xml" value="0.172" />
+        <entry key="..\:/WeatherDaily/app/src/main/res/drawable/ic_cloudy.xml" value="0.1145" />
+        <entry key="..\:/WeatherDaily/app/src/main/res/drawable/ic_partly_cloudy.xml" value="0.172" />
+        <entry key="..\:/WeatherDaily/app/src/main/res/layout/activity_home.xml" value="0.18568840579710144" />
+        <entry key="..\:/WeatherDaily/app/src/main/res/layout/item_weather_today_detail.xml" value="0.22826086956521738" />
+        <entry key="..\:/WeatherDaily/app/src/main/res/layout/item_weather_weekday_detail.xml" value="0.253125" />
+        <entry key="..\:/WeatherDaily/app/src/main/res/layout/mmmm.xml" value="0.12952898550724637" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.29583333333333334" />
         <entry key="app/src/main/res/layout/activity_setting.xml" value="0.2947916666666667" />
       </map>
