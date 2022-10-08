@@ -11,24 +11,24 @@
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
         android:text="CHI TIẾT"
-        android:textSize="20sp"
+        android:textSize="16sp"
         android:textStyle="bold"
         android:fontFamily="sans-serif" />
 
     <TableRow
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="10dp"
+        android:layout_margin="8dp"
         android:weightSum="3">
 
         <LinearLayout
             android:layout_weight="1"
             android:id="@+id/lnTemperature"
             android:layout_width="0dp"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:gravity="center"
             android:padding="5dp"
-            android:layout_marginEnd="10dp"
+            android:layout_marginEnd="8dp"
             android:orientation="vertical"
             android:background="@drawable/bg_weather_detail_big">
             <ImageView
@@ -42,7 +42,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
-                android:textSize="20sp"
+                android:textSize="14sp"
                 android:text="Cảm Giác Như"/>
             <TableRow
                 android:layout_height="wrap_content"
@@ -54,23 +54,23 @@
                     android:layout_height="wrap_content"
                     android:layout_width="wrap_content"
                     android:text="30"
-                    android:textSize="30sp"/>
+                    android:textSize="25sp"/>
                 <TextView
                     android:layout_height="wrap_content"
                     android:layout_width="wrap_content"
                     android:text="°C"
-                    android:textSize="30sp"/>
+                    android:textSize="25sp"/>
             </TableRow>
         </LinearLayout>
         <LinearLayout
             android:layout_weight="1"
             android:id="@+id/lnHumidity"
             android:layout_width="0dp"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:gravity="center"
             android:padding="5dp"
-            android:layout_marginEnd="10dp"
-            android:layout_marginStart="10dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
             android:orientation="vertical"
             android:background="@drawable/bg_weather_detail_big">
             <ImageView
@@ -84,7 +84,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
-                android:textSize="20sp"
+                android:textSize="14sp"
                 android:text="Độ Ẩm"/>
             <TableRow
                 android:layout_height="wrap_content"
@@ -96,22 +96,22 @@
                     android:layout_height="wrap_content"
                     android:layout_width="wrap_content"
                     android:text="90"
-                    android:textSize="30sp"/>
+                    android:textSize="25sp"/>
                 <TextView
                     android:layout_height="wrap_content"
                     android:layout_width="wrap_content"
                     android:text="%"
-                    android:textSize="30sp"/>
+                    android:textSize="25sp"/>
             </TableRow>
         </LinearLayout>
         <LinearLayout
             android:layout_weight="1"
             android:id="@+id/lnUVIndex"
             android:layout_width="0dp"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:gravity="center"
             android:padding="5dp"
-            android:layout_marginStart="10dp"
+            android:layout_marginStart="8dp"
             android:orientation="vertical"
             android:background="@drawable/bg_weather_detail_big">
             <ImageView
@@ -125,15 +125,15 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
-                android:textSize="20sp"
-                android:text="Chỉ số UV"/>
+                android:textSize="14sp"
+                android:text="Chỉ Số UV"/>
             <TextView
                 android:id="@+id/txtUVIndex"
                 android:layout_height="wrap_content"
                 android:layout_width="wrap_content"
                 android:layout_margin="5dp"
                 android:text="0"
-                android:textSize="30sp"/>
+                android:textSize="25sp"/>
         </LinearLayout>
     </TableRow>
 
@@ -147,10 +147,10 @@
             android:layout_weight="1"
             android:id="@+id/lnVision"
             android:layout_width="0dp"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:gravity="center"
             android:padding="5dp"
-            android:layout_marginEnd="10dp"
+            android:layout_marginEnd="8dp"
             android:orientation="vertical"
             android:background="@drawable/bg_weather_detail_big">
             <ImageView
@@ -164,7 +164,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
-                android:textSize="20sp"
+                android:textSize="14sp"
                 android:text="Tầm Nhìn"/>
             <TableRow
                 android:layout_height="wrap_content"
@@ -176,23 +176,23 @@
                     android:layout_height="wrap_content"
                     android:layout_width="wrap_content"
                     android:text="30"
-                    android:textSize="30sp"/>
+                    android:textSize="25sp"/>
                 <TextView
                     android:layout_height="wrap_content"
                     android:layout_width="wrap_content"
                     android:text=" km"
-                    android:textSize="30sp"/>
+                    android:textSize="25sp"/>
             </TableRow>
         </LinearLayout>
         <LinearLayout
             android:layout_weight="1"
             android:id="@+id/lnDewPoint"
             android:layout_width="0dp"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:gravity="center"
             android:padding="5dp"
-            android:layout_marginEnd="10dp"
-            android:layout_marginStart="10dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
             android:orientation="vertical"
             android:background="@drawable/bg_weather_detail_big">
             <ImageView
@@ -206,7 +206,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
-                android:textSize="20sp"
+                android:textSize="14sp"
                 android:text="Điểm Sương"/>
             <TableRow
                 android:layout_height="wrap_content"
@@ -218,22 +218,22 @@
                     android:layout_height="wrap_content"
                     android:layout_width="wrap_content"
                     android:text="27"
-                    android:textSize="30sp"/>
+                    android:textSize="25sp"/>
                 <TextView
                     android:layout_height="wrap_content"
                     android:layout_width="wrap_content"
                     android:text="°C"
-                    android:textSize="30sp"/>
+                    android:textSize="25sp"/>
             </TableRow>
         </LinearLayout>
         <LinearLayout
             android:layout_weight="1"
             android:id="@+id/lnAirPressure"
             android:layout_width="0dp"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:gravity="center"
             android:padding="5dp"
-            android:layout_marginStart="10dp"
+            android:layout_marginStart="8dp"
             android:orientation="vertical"
             android:background="@drawable/bg_weather_detail_big">
 
@@ -249,7 +249,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
-                android:textSize="20sp"
+                android:textSize="14sp"
                 android:text="Áp Suất"/>
             <TableRow
                 android:layout_height="wrap_content"
@@ -260,13 +260,13 @@
                     android:id="@+id/txtAirPressure"
                     android:layout_height="wrap_content"
                     android:layout_width="wrap_content"
-                    android:text="1008"
-                    android:textSize="30sp"/>
+                    android:text="1024"
+                    android:textSize="23sp"/>
                 <TextView
                     android:layout_height="wrap_content"
                     android:layout_width="wrap_content"
                     android:text=" mb"
-                    android:textSize="30sp"/>
+                    android:textSize="23sp"/>
             </TableRow>
         </LinearLayout>
     </TableRow>
