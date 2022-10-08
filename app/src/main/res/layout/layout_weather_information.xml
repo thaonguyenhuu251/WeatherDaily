@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:id="@+id/imgSkyWeather"
+        android:src="@drawable/bg_purple_sky"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/bg_outline_round"
+        android:clipToOutline="true"
+        app:layout_constraintDimensionRatio="H,1:1"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TableRow
+        android:id="@+id/tbrTemperature"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:layout_constraintTop_toBottomOf="@+id/imgSkyWeather"
+        tools:layout_editor_absoluteX="10dp">
+
+        <TextView
+            android:id="@+id/txtTemperature"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:text="29"
+            android:textColor="@color/light_gray"
+            android:textSize="65sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:text="°C"
+            android:textColor="@color/light_gray"
+            android:textSize="65sp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center|top"
+            android:orientation="vertical">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                app:layout_constraintTop_toBottomOf="@+id/imgSkyWeather">
+
+                <TextView
+                    android:id="@+id/txtMaxTemperature"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-light"
+                    android:text="31"
+                    android:textColor="@color/light_gray"
+                    android:textSize="25sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-light"
+                    android:text="°C"
+                    android:textColor="@color/light_gray"
+                    android:textSize="25sp" />
+            </TableRow>
+
+            <View
+                android:layout_width="100dp"
+                android:layout_height="2dp"
+                android:background="@color/cardview_shadow_start_color" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                app:layout_constraintTop_toBottomOf="@+id/imgSkyWeather">
+
+                <TextView
+                    android:id="@+id/txtMinTemperature"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-light"
+                    android:text="26"
+                    android:textColor="@color/light_gray"
+                    android:textSize="25sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-light"
+                    android:text="°C"
+                    android:textColor="@color/light_gray"
+                    android:textSize="25sp" />
+            </TableRow>
+
+        </LinearLayout>
+    </TableRow>
+
+    <TextView
+        android:id="@+id/txtDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Th.7, 8 tháng 10"
+        android:textSize="15sp"
+        android:textColor="@color/button_transfer_black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tbrTemperature" />
+    <TextView
+        android:id="@+id/txtPlace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Hà Nội"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="@color/cardview_dark_background"
+        android:fontFamily="sans-serif-condensed-light"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtDate" />
+    <TextView
+        android:id="@+id/txtWeatherTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Nhiều mây"
+        android:textSize="20sp"
+        android:textColor="@color/cardview_dark_background"
+        android:fontFamily="sans-serif-medium"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtPlace" />
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:weightSum="10"
+        app:layout_constraintTop_toBottomOf="@+id/txtWeatherTitle">
+
+        <TextView
+            android:id="@+id/txtWeatherDetail"
+            android:layout_weight="9"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Đêm nay - Có dông. Mưa siu cấp pro to. Gió thổi thì cũng nhanh đấy cơ mà hơi non. Khả năng mưa 60%"
+            android:textSize="15sp"
+            android:textColor="@color/button_transfer_black"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtWeatherTitle" />
+
+        <ImageView
+            android:id="@+id/imgRightArrow"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_arrow_right"
+            android:textColor="@color/button_transfer_black" />
+
+    </TableRow>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
