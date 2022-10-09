@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txtNhietDo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nhiệt Độ"
+        android:textSize="30dp"
+        android:layout_gravity="center"/>
+    <TextView
+        android:id="@+id/txtPhanTramTemp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phần Trăm"
+        android:textSize="30dp"
+        android:layout_gravity="center"/>
+    <ImageView
+        android:id="@+id/imgIcon"
+        android:src="@drawable/weather_app"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="2dp"
+        android:layout_gravity="center"/>
+    <TextView
+        android:id="@+id/txtTocDo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tốc độ"
+        android:textSize="30dp"
+        android:layout_marginTop="2dp"
+        android:layout_gravity="center"/>
+    <ImageView
+        android:id="@+id/imgIcon1"
+        android:src="@drawable/arrows"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="2dp"
+        android:layout_gravity="center"/>
+    <TextView
+        android:id="@+id/txtHour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hour"
+        android:textSize="30dp"
+        android:layout_marginTop="2dp"
+        android:layout_gravity="center"/>
+
+
+</LinearLayout>
