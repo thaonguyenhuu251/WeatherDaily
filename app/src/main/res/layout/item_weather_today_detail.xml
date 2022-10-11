@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/_10sdp"
+    android:padding="@dimen/_10sdp">
+
+    <ImageView
+        android:id="@+id/ivWeatherToday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background_circle_icon_weather_detail"
+        android:padding="@dimen/_12sdp"
+        android:src="@drawable/ic_cloudy"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ContentDescription" />
+
+    <LinearLayout
+        android:id="@+id/llInforWeatherToday"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintStart_toEndOf="@+id/ivWeatherToday"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="@dimen/_15sdp">
+
+        <TextView
+            android:id="@+id/txtInforHour"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/app_weather"
+            android:textSize="@dimen/_14ssp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtInforCelsius"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/air_index"
+            android:textSize="@dimen/_14ssp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtInforStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/clear_sky"
+            android:textColor="@color/colorText"
+            android:textSize="@dimen/_14ssp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtPercentDay"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginStart="8dp"
+        android:text="@string/west"
+        android:textColor="@color/teal_200"
+        android:textSize="@dimen/_14ssp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivWeatherToday"
+        app:layout_constraintVertical_bias="0.26" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:orientation="vertical"
+        app:layout_constraintStart_toEndOf="@+id/txtPercentDay"
+        app:layout_constraintTop_toBottomOf="@+id/llInforWeatherToday"
+        android:layout_marginStart="@dimen/_25sdp">
+
+        <TextView
+            android:id="@+id/txtInforStatusWind"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/clear_sky"
+            android:textColor="@color/colorText"
+            android:textSize="@dimen/_12ssp" />
+
+        <TextView
+            android:id="@+id/txtInforStatusUV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textColor="@color/colorText"
+            android:textSize="@dimen/_12ssp" />
+
+        <TextView
+            android:id="@+id/txtInforStatusHumidity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ability_to_rain"
+            android:textColor="@color/colorText"
+            android:textSize="@dimen/_12ssp" />
+
+        <TextView
+            android:id="@+id/txtInforStatusFrog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/celsius"
+            android:textColor="@color/colorText"
+            android:textSize="@dimen/_12ssp" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
