@@ -2,7 +2,6 @@
     <string name="app_name">WeatherDaily</string>
 
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="app_weather">Weather Application</string>
     <string name="today_weather">Today weather</string>
     <string name="hint_name">Please enter your name and start use App</string>
@@ -11,18 +10,13 @@
 
     <!--detail weather-->
     <string name="fell_like">fell like</string>
-    <string name="humidity">Humidity</string>
-    <string name="uv_index">UV</string>
     <string name="vision">Vision</string>
-    <string name="dewpoint">Dewpoint</string>
     <string name="pressure">Pressure</string>
     <string name="detail">Detail</string>
-    <string name="seven_day_next">Seven day next</string>
     <string name="rain_percent">Rain percent</string>
     <string name="air_index">Air index</string>
     <string name="sun">Sun</string>
     <string name="moon">Moon</string>
-    <string name="today">Today</string>
 
     <!--    clound status-->
     <string name="cloud_little">Cloud little</string>
@@ -74,4 +68,37 @@
     <string name="west_north_west">west - north west</string>
     <string name="north_north_west">north - north west</string>
     <string name="delete">Delete</string>
+
+    <string name="set_temp">%s ºC</string>
+    <string name="set_speed">%s m/s</string>
+    <string name="wind_level">Wind level %x</string>
+    <string name="set_pressure">%s mph</string>
+
+    <string name="excellent_title">Good</string>
+    <string name="good_title">Moderate</string>
+    <string name="slight_pollution_title">Unhealthy for Sensitive Groups</string>
+    <string name="moderate_pollution_title">Unhealthy</string>
+    <string name="heavily_polluted_title">Very Unhealthy</string>
+    <string name="heavy_pollution_title">Hazardous</string>
+    <string name="today">Today</string>
+    <string name="seven_day_next">7 day next</string>
+    <string name="fourteen_day_next">14 day next</string>
+
+
+    <string name="syncing_server">Syncing with server</string>
+    <string name="syncing_database">Syncing with database</string>
+    <string name="weather">Weather</string>
+    <string name="location">Location</string>
+    <string name="theme">Themes</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="humidity">Humidity</string>
+    <string name="visibility">Visibility</string>
+    <string name="uv_index">UV index</string>
+    <string name="dewpoint">Dewpoint</string>
+    <string name="daily_forecasts">Daily forecasts</string>
+    <string name="hourly_forecasts">Hourly forecasts</string>
+    <string name="air_quality">Air Quality</string>
+
+    <string name="ad_attribution">Ad</string>
 </resources>
