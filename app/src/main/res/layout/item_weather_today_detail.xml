@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:padding="10dp">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="7">
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5">
+
+            <ImageView
+                android:id="@+id/ivWeatherToday"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/custome_circle"
+                android:padding="15dp"
+                android:src="@drawable/ic_partly_cloudy" />
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5.5"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtInforHour"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="17:00"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtInforCelsius"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="18℃ - Cảm giác như : 32℃"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtInforStatus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rất nhiều mây"
+                android:textColor="@color/colorText"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_weight="7">
+
+        <TextView
+            android:id="@+id/txtPercentDay"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5"
+            android:gravity="center_horizontal"
+            android:text="14%"
+            android:textColor="@color/teal_200"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5.5"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtInforStatusWind"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gió: 5km/h Đông-Đông Bắc"
+                android:textColor="@color/colorText"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/txtInforStatusUV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chỉ số UV:Low"
+                android:textColor="@color/colorText"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/txtInforStatusHumidity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Độ ẩm: 77%"
+                android:textColor="@color/colorText"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/txtInforStatusFrog"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Điểm sương: 23"
+                android:textColor="@color/colorText"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </TableRow>
+</TableLayout>

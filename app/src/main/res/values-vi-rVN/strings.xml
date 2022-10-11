@@ -32,7 +32,7 @@
 
     <!--    status weather description-->
     <string name="thunderstorm_rain">Mưa có sấm sét</string>
-    <string name="thunderstorm_drizzle">Mưa phùn có sấm set</string>
+    <string name="thunderstorm_drizzle">Mưa phùn có sấm sét</string>
     <string name="drizzle">Mưa phùn</string>
     <string name="rain">Mưa</string>
     <string name="snow">Tuyết</string>
