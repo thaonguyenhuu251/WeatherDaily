@@ -16,6 +16,7 @@
     <color name="transparent">#00000000</color>
     <color name="item_detail">#140A0A</color>
     <color name="colorText">#C5C9DF</color>
+    <color name="light_gray">#A5A5A5</color>
 
     <color name="opaque_red">#f00</color>
     <color name="translucent_red">#80ff0000</color>
